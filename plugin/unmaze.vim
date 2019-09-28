@@ -40,4 +40,3 @@ function! FindIfMacros()
     echo '#'.s:condition
   endfor
 endfunction
-nmap M :call FindIfMacros()<CR>
